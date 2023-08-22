@@ -17,9 +17,9 @@
 .navbar a {
   font-size: 16px;
   text-decoration: none;
-  color: aliceblue;
   font-weight: 500;
   margin-left: 40px;
+  color: aliceblue;
 }
 
 .logo {
@@ -39,7 +39,7 @@
   height: 100%;
   background: #3d6dbe;
   color: aliceblue;
-  border: 3px solid #3d6dbe;
+  border: 3px solid aliceblue;
   border-radius: 8px;
   font-size: 20px;
   text-decoration: none;
@@ -72,4 +72,49 @@ p {
 
 img {
   height: 500px;
+}
+
+footer {
+  background-color: #3d6dbe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-content {
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+footer .footer-content div {
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  color: aliceblue;
+}
+footer .footer-content div a {
+  text-decoration: none;
+  color: aliceblue;
+}
+footer p {
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.form h3 {
+  margin-bottom: 10px;
+}
+.form input {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 34px;
+  background: transparent;
+  color: #3d6dbe;
+  border: 2px #3d6dbe;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,4 @@
-$color_1: aliceblue;
-$color_2: #3d6dbe;
+@use "./util/" as u;
 
 .header {
   background: #5570cd;
@@ -14,14 +13,14 @@ $color_2: #3d6dbe;
   a {
     font-size: 16px;
     text-decoration: none;
-    color: $color_1;
     font-weight: 500;
     margin-left: 40px;
+    color: u.$color_1;
   }
 }
 
 .logo {
-  color: $color_1;
+  color: u.$color_1;
   font-size: 40px;
   font-weight: 500;
   text-decoration: none;
@@ -36,9 +35,9 @@ $color_2: #3d6dbe;
     align-items: center;
     width: 160px;
     height: 100%;
-    background: #3d6dbe;
-    color: $color_1;
-    border: 3px solid #3d6dbe;
+    background: u.$color_2;
+    color: u.$color_1;
+    border: 3px solid u.$color_1;
     border-radius: 8px;
     font-size: 20px;
     text-decoration: none;
@@ -46,7 +45,7 @@ $color_2: #3d6dbe;
     gap: 10px 20px;
     &:nth-child(2) {
       background: transparent;
-      color: $color_2;
+      color: u.$color_2;
       font-size: 20px;
     }
   }
