@@ -1,7 +1,7 @@
 @use "./util/" as u;
 
 .header {
-  background: #5570cd;
+  background: u.$color_2;
   width: 100%;
   padding: 20px 10%;
   display: flex;

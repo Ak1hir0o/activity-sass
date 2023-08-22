@@ -6,7 +6,7 @@
 }
 
 .header {
-  background: #5570cd;
+  background: #3d6dbe;
   width: 100%;
   padding: 20px 10%;
   display: flex;
@@ -112,8 +112,8 @@ footer p {
   width: 200px;
   height: 34px;
   background: transparent;
-  color: #3d6dbe;
-  border: 2px #3d6dbe;
+  color: aliceblue;
+  border: 2px solid aliceblue;
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600px;
